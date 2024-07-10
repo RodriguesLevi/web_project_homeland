@@ -1,0 +1,12 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.nav__logo {
+  width: 254px;
+  height: 70px;
+  margin-top: 34px;
+  padding: 0px 0px 0.8px 0px;
+  gap: 0px;
+  opacity: 0px;
+}
