@@ -33,7 +33,6 @@
   .header__title {
     left: 46px;
     gap: 0px;
-    opacity: 0px;
   }
 }
 @media screen and (max-width: 720px) {
@@ -41,7 +40,6 @@
     width: 228px;
     height: 88px;
     gap: 0px;
-    opacity: 0px;
     font-family: "Inter";
     font-size: 40px;
     font-weight: 900;
