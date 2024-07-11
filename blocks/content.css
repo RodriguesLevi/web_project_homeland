@@ -43,7 +43,7 @@
     margin-left: 24px;
   }
   .content__title {
-    padding: 24px 0;
+    padding: 24px 0 24px;
     gap: 0px;
   }
   .content__subtitle {

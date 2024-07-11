@@ -35,7 +35,7 @@
     gap: 0px;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 544px) {
   .header__title {
     width: 228px;
     height: 88px;
