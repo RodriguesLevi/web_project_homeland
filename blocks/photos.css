@@ -1,4 +1,4 @@
-.photos__grid {
+.photo__grid-container {
   padding: 188px 24px 0;
   display: grid;
   grid-gap: 16px;
@@ -11,7 +11,7 @@
   height: 213px;
 }
 @media screen and (max-width: 1024px) {
-  .photos__grid {
+  .photo__grid-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +20,7 @@
   }
 }
 @media screen and (max-width: 740px) {
-  .photos__grid {
+  .photo__grid-container {
     display: flex;
     flex-direction: column;
     align-items: center;
