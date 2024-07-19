@@ -23,10 +23,11 @@
   margin: 0;
 }
 .section__container-artist {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: end;
-  width: 456px;
+  /* width: 456px; */
 }
 .section__title-artist {
   max-width: 85.17px;
@@ -59,6 +60,8 @@
   grid-area: description;
 }
 .section__text {
+  max-width: 484px;
+  width: 100%;
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
@@ -67,6 +70,8 @@
   margin-top: 0;
 }
 .section__button {
+  display: flex;
+  justify-content: center;
   max-width: 356px;
   width: 100%;
   padding: 13px 20px 13px 20px;
@@ -76,7 +81,8 @@
   color: #ffffff;
   text-decoration: none;
   font-family: "Inter";
-  box-shadow: 5px 5px 10px 0px #00000040;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  font-size: 18px;
 }
 
 .section__button:hover {
