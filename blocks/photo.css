@@ -1,4 +1,4 @@
-.photo__grid-container {
+.photo {
   display: flex;
   align-items: center;
   padding: 188px 24px 0;
@@ -6,26 +6,26 @@
   grid-gap: 16px;
   grid-template-columns: repeat(4, 1fr);
 }
-.photo__grid-container-image {
+.photo__grid {
   max-width: 284px;
   width: 100%;
   height: 213px;
 }
 @media screen and (max-width: 1024px) {
-  .photo__grid-container {
+  .photo {
     margin: 0 auto;
     padding: 64px 24px 0;
     grid-gap: 16px;
     justify-content: center;
     grid-template-columns: repeat(2, 352px);
   }
-  .photo__grid-container-image {
+  .photo__grid {
     width: 100%;
     max-width: 352px;
   }
 }
 @media screen and (max-width: 740px) {
-  .photo__grid-container {
+  .photo {
     display: flex;
     flex-direction: column;
     align-items: center;
