@@ -52,7 +52,7 @@
 
 .section__homeland-image {
   max-width: 460px;
-  width: 100%;
+  /* width: 100%; */
   height: 360px;
 }
 

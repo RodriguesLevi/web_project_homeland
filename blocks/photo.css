@@ -1,4 +1,6 @@
 .photo__grid-container {
+  display: flex;
+  align-items: center;
   padding: 188px 24px 0;
   display: grid;
   grid-gap: 16px;
@@ -12,11 +14,15 @@
 }
 @media screen and (max-width: 1024px) {
   .photo__grid-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 16px 0;
-    margin: 0;
+    margin: 0 auto;
+    padding: 64px 24px 0;
+    grid-gap: 16px;
+    justify-content: center;
+    grid-template-columns: repeat(2, 352px);
+  }
+  .photo__grid {
+    width: 100%;
+    max-width: 352px;
   }
 }
 @media screen and (max-width: 740px) {
