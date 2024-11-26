@@ -94,18 +94,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .photos__grid {
-    margin: 0 auto;
-    padding: 64px 24px 0;
-    grid-gap: 16px;
-    justify-content: center;
-    grid-template-columns: repeat(2, 352px);
-  }
-  .photo__grid {
-    width: 100%;
-    max-width: 468px;
-    height: 350px;
-  }
   .section__homeland {
     display: flex;
     justify-content: center;
