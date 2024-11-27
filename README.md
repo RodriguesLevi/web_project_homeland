@@ -2,7 +2,7 @@
 
 ## 📖 Descrição do Projeto
 
-O site mostra informações sobre alguns colegas como de trabalho, como aonde nasceram e algumas historias do mesmo de suas cidades de origem e fotos
+O site mostra informações sobre alguns colegas de trabalho, como aonde nasceram e algumas historias do mesmo de suas cidades de origem e fotos
 
 ## 🎯 Objetivos do Projeto
 
